@@ -1,0 +1,230 @@
+/* print.css, default styles for print, last validated 9-27-10 1:53 p.m. */
+
+	div#header h1 {
+		font-size: 24pt;
+		font-family: verdana, arial, "sans serif";
+		color: #50A6C2;
+		padding-left: 30px;
+		font-weight: bold;
+		}
+	
+
+	h1 + h2 {
+		padding-top: 10px;
+		padding-left: 30px;
+		font-family: verdana, arial, "sans serif";
+		color: #50A6C2;
+		padding-bottom: 30px;
+		font-weight: bold;
+		font-size: 18pt;
+		border-bottom: none;
+		}
+
+		
+/* navigation */
+
+	div#navigation ul li{
+		font-size: 0pt;
+		}
+		
+	div#navigation ul {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		}
+		
+	div#portfolio-top-nav a {
+		font-size: 0px;
+		}
+	
+	div#portfolio-bottom-nav a {
+		font-size: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		}
+		
+/* contact information */
+
+	div#contact ul {
+		padding-top: 15px;
+		padding-left: 30px;
+		padding-bottom: 30px;
+		}
+	
+	div#contact li {
+		font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+		color: #50A6C2;
+		font-weight: bold;
+		text-indent: 0px;
+		}
+	
+	div#contact h3 {
+		padding-top: 0px;
+		padding-left: 30px;
+		}
+	
+	div#contact h3 + h3 {
+		padding-top: 0px;
+		}
+
+		
+/* section divider and headings */
+	
+	h2, h3, h4, h5, h6 {
+		width: 650px;
+		}
+	
+	/* apply the SECTION class to h2 headers that divide sections of the CV page */
+	h2.section {
+		font-size: 200%;
+		font-weight: bold;
+		font-family: helvetica, arial, sans-serif;
+		padding-left: 30px;
+		width: 650px;
+		color: #50A6C2;
+		}
+	
+
+	
+	h4, h5, h6 {
+		font-weight: bold;
+		font-family: helvetica, arial, sans-serif;
+		color: #D2691E;
+		padding-left: 30px;
+		}
+	
+	
+	h3 {
+		padding-top: 20px;
+		padding-bottom: 5px;
+		padding-left: 30px;
+		font-size: 150%;
+		color: #50A6C2;
+		font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+		}
+	
+	h4 {
+		padding-bottom: 5px;
+		font-size: 100%;
+		color: #50A6C2;
+		}
+		
+	h4.portfolio {
+		color: #383838;
+		font-size: 110%;
+		padding-top: 20px;
+		padding-right: 30px;
+		padding-bottom: 5px;
+		width: 550px;
+		font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+		}
+		
+	h5.portfolio {
+		color: #383838;
+		font-size: 90%;
+		padding-right: 30px;
+		width: 550px;
+		font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+		}
+	
+	h5 {
+		font-size: 90%;
+		color: #50A6C2;
+		}
+	
+	
+/* anchor tags */
+	h3 a {
+		text-decoration: none;
+		color: #50A6C2;
+		}
+	
+	a {
+		text-decoration: none;
+		color: #A020F0;
+		}
+	
+	a.portfolio {
+		text-decoration: none;
+		color: #A020F0;
+		font-size: 125%;
+		padding-left: 30px;
+		}
+	
+	
+	a:hover,
+	a:active,
+	a:focus {
+	text-decoration: underline;	
+	}
+
+	
+/* text formatting */
+		
+	p {
+	padding-top: 10px;
+	padding-left: 30px;
+	width: 500px;
+	color: #383838;
+	line-height: 1.5;
+	font-family: "Palatino Linotype", garamond, "Times New Roman", serif; 
+	}
+	
+	/* apply the LAST class to the last paragraph in each section of the CV to pad it from the subsequent section header */
+	p.last {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	width: 500px;
+	color: #383838;
+	line-height: 1.5;
+	font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+	}
+	
+	p.footer {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	color: white;
+	width: 650px;
+	}
+	
+	p.portfolio {
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-indent: 50px;
+	line-height: 2.0;
+	width: 550px;
+	font-family: "Times New Roman", serif;
+	}
+	
+	
+	ul {	
+	padding-top: 30px;
+	padding-bottom: 30px; /* spaces the list in the tech div from the section header below */
+	padding-left: 60px;	
+	color: #383838;
+	line-height: 1.5;
+	}
+	
+	div#tech li {
+	list-style-type: square;
+	line-height: 2.0;
+	}
+	
+	
+	ul.citation li {
+	text-indent: -50px;
+	padding-left: 50px;
+	width: 550px;
+	line-height: 2.0;
+	font-family: "Times New Roman", serif;
+	}
+	
+	/* footer */
+	
+	div#footer {
+	position: relative;
+	width: 100%;
+	background-color: #50A6C2;
+	}
